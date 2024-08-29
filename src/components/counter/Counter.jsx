@@ -18,7 +18,7 @@ const Counter = () => {
             </div>
             <div>
                 <input type="number" ref={myNumb}/>
-                <button onClick={() => dispatch(setVal(myNumb.current.value))}>Set</button>
+                <button onClick={() => dispatch(setVal(parseInt(myNumb.current.value)))}>Set</button>
             </div>
         </>
 
