@@ -1,1 +1,1 @@
-# Simple counter & Todo List application using redux.
+# Simple counter & Todo List application using react-redux.
